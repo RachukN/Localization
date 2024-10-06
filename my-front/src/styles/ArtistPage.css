@@ -1,0 +1,236 @@
+  .main-container-a {
+    display: flex;
+  }
+  .sidebar-a{
+    position: fixed;
+    left: 0;
+    top: 0;
+
+  }
+  .filter-user-a{
+    position:fixed ;
+    top: 20px;
+    right: 0px;
+    width: 0px;
+    
+  }
+  .player-a{
+    position: fixed;
+    bottom: 0;
+  }
+  .tracks-list{
+    width: 1150px;
+  }
+  .results-section-a{
+margin-left: 38px;
+  }
+  .track-item.light:hover {
+    cursor: pointer;
+    border-radius: 12px;
+    background: var(--white-19, rgb(184, 184, 184));
+  color: #FFF;
+  }
+  .content-a {
+    margin-top: -65px;
+    margin-left: 320px; /* Sidebar width */
+    flex-grow: 1;
+    overflow-y: auto;
+    background: var(--Black, #13191C);
+    position: sticky;
+    right: 0;
+    width: 1199px;
+    }
+    .content-a.light{
+      background-color: #D1D1D6;
+
+    }
+  .banner-container-user-a {
+    display: flexbox;
+    /* Змініть розмір відповідно до ваших потреб */
+    margin-bottom: 20px; /* Відстань від банеру до наступного контенту */
+    
+    overflow: hidden;
+}
+
+.music-a{
+margin-left: 30px;
+}
+.cont-a{
+  margin-top: 0px;
+  margin-left: 30px;
+  
+}
+.cont-sa{
+  margin-top: 0px;
+  margin-left: 60px;
+  
+}
+.section-titleh-a{
+    color: var(--gray-white, #CECECE);
+
+/* txt16 (regular) */
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 25px;
+}
+.banner-image-user-a {
+  margin-left: -90px;
+    width: 1300px;
+    height: 360px;
+    margin-bottom: 50px;
+  }
+.inf-a{
+  position: absolute;
+    margin-left: 50px;
+    margin-top: -270px;
+}
+.title-a{
+    margin-top: -30px;
+    
+}
+.release-date{
+  color: var(--gray-white, #CECECE);
+
+  /* txt16 (regular) */
+  margin-top: -3px;
+  font-weight: 400;
+  line-height: normal;
+}
+.m5m{
+  margin-right: 12px;
+  width: 140px;
+  height: 140px;
+}
+.m-5m{
+  margin-right: 12px;
+  width: 140px;
+  height: 140px;
+  border-radius: 8px;
+}
+.popularity{
+margin-left: 60px;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: #00FF03;
+}
+.popularity.light{
+  color: #0B9F0D;
+}
+.profile-image-a{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.profile-details-a{
+    margin-top: -30px;
+    color: var(--White, #FFF);
+
+/* txt32 (semi bold) */
+font-size: 16px;
+font-weight: 600;
+
+}
+.profile-details-a.light{
+  color: var(--Light-black, #1A2125);
+}
+.name-a{
+    margin-left: 170px;
+    margin-top: -135px;
+    
+}
+.name-a.light{
+  margin-left: 170px;
+  margin-top: -135px;
+  color: var(--Light-black, #1A2125);
+  
+}
+.play-icona {
+  position: absolute;
+  top: 33px;
+  left: 5px;
+  width: 140px;
+  height: 140px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  display: none; /* Hidden by default */
+  justify-content: center;
+  align-items: center;
+}
+.play-iconaa {
+  position: absolute;
+  top: 0px;
+  width: 140px;
+  height: 140px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: none; /* Hidden by default */
+  justify-content: center;
+  align-items: center;
+}
+.img-content:hover .play-icona {
+  display: flex; /* Show on hover */
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Green shadow on hover */
+   
+}
+.img-container:hover .play-iconaa {
+  display: flex; /* Show on hover */
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Green shadow on hover */
+   
+}
+
+.img-contenta{
+  border-radius: 50%;
+}
+.play-icona img {
+  width: 40px;
+  height: 40px;
+}
+.seting-a{
+    height: 25px;
+   width: 1200;
+    height: 25px;
+    padding-left: 367px;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    margin-top: -55px;
+}
+.seting-img-a{
+    margin-left: -320px;
+}
+
+.folofers{
+  margin-top: -25px;
+}
+
+
+.subscribe-button{
+  margin-left: 115%;
+  color: var(--Light-black, #1A2125);
+/* txt20 (semi bold) */
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 12px;
+background: var(--green-less-saturated, #4BDD4C);
+}
+.subscribed{
+ 
+    margin-left: 115%;
+    color: var(--Light-black, #1A2125);
+  /* txt20 (semi bold) */
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 12px;
+  background: var(--green-less-saturated, #7f7e7e);
+}

@@ -1,0 +1,678 @@
+/* src/components/MainPage.css */
+
+.main-container-s {
+    display: flex;
+}
+
+.sidebar-s {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+}
+.profile-details-s.light{
+    color: var(--Light-black, #1A2125);
+
+}
+.success {
+    position: fixed;
+    top: 10px;
+    right: 150px;
+    width: 200px;
+    height: 50px;
+    color: #aaa;
+}
+.dropdown-menu {
+    position: absolute;
+    /* Move the dropdown to the left of the button */
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .dropdown-menuu {
+    position: absolute;
+  top: 50px; /* Adjust this value if necessary */
+  left: 210px; /* Move the dropdown to the left of the button */
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .dropdown-menu-s {
+    position: absolute;
+  top: 470px; /* Adjust this value if necessary */
+  left: 100px; /* Move the dropdown to the left of the button */
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .dropdown-menuu-s {
+    position: absolute;
+  top: 50px; /* Adjust this value if necessary */
+  left: 210px; /* Move the dropdown to the left of the button */
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .seting-imgg{
+    margin-right: 20px;
+    margin-bottom: 3px;
+  }
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #555;
+  }
+  
+  .playlist-options {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .playlist-options li {
+    padding: 5px;
+    cursor: pointer;
+    color: #ddd;
+  }
+  
+  .playlist-options li:hover {
+    background-color: #444;
+  }
+  
+  .playlist-options {
+    padding-left: 10px;
+  }
+  
+.success-message {
+    margin-top: -100px;
+    
+    text-align: center;
+    border-radius: 12px;
+    background: var(--white-19, rgba(255, 255, 255, 0.19));
+}
+
+.plus-p {
+    width: 15px;
+    margin-top: 3px;
+}
+
+.filter-user-s {
+    position: fixed;
+    top: 20px;
+    right: 0px;
+    width: 0px;
+
+}
+
+.seting {
+    height: 25px;
+    background: var(--Light-black, #1A2125);
+    display: flex;
+    width: 1200;
+    height: 25px;
+    padding-left: 367px;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    margin-top: 50px;
+}
+
+.scr {
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 25px;
+
+}
+
+.modal-p {
+    background: var(--Light-black, #111619f9);
+    padding: 20px;
+    width: 1250px;
+    height: 1000px;
+    max-width: 90%;
+    text-align: center;
+    position: relative;
+}
+.modal-p.light{
+    background-color: #D1D1D6;
+}
+.tracks-list-f-p {
+    position: fixed;
+    top: 0;
+    left: 275px;
+    /* Dark background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track-info {
+    margin-top: 10px;
+}
+
+.close-dropdown-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 1015px;
+
+}
+
+.add-track-btn {
+    margin-top: 50px;
+    margin-bottom: -30px;
+    margin-left: 378px;
+    justify-content: right;
+
+}
+
+.addp {
+    display: flex;
+    color: var(--Light-black, #1A2125);
+    /* txt20 (semi bold) */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 12px;
+    background: var(--green-less-saturated, #4BDD4C);
+    margin-top: -55px;
+    margin-left: -220px;
+}
+
+.addpp {
+    display: flex;
+    color: var(--Light-black, #1A2125);
+    /* txt20 (semi bold) */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 12px;
+    background: var(--green-less-saturated, #4BDD4C);
+    margin-top: -38px;
+    margin-left: -70px;
+}
+
+.track-artists {
+    margin-top: -3px;
+}
+
+.player-s {
+    position: fixed;
+    bottom: 0;
+}
+
+.content-s {
+    margin-top: -65px;
+    margin-left: 320px;
+    /* Sidebar width */
+    flex-grow: 1;
+    overflow-y: auto;
+    background: var(--Black, #13191C);
+    position: sticky;
+    right: 0;
+    width: 1199px;
+}
+.content-s.light{
+    background-color: #D1D1D6;
+    color: var(--Light-black, #1A2125);
+}
+
+.banner-container-user-s {
+    display: flexbox;
+    /* Змініть розмір відповідно до ваших потреб */
+    margin-bottom: 15px;
+    /* Відстань від банеру до наступного контенту */
+
+    overflow: hidden;
+}
+
+h2 {
+    margin-left: 20px;
+    color: #00FF03;
+    margin-bottom: -10px;
+    font-size: 30px;
+}
+.track-duration.light,
+.track-album.light,
+.name-title.light{
+    color: var(--Light-black, #1A2125);
+
+}
+.music-s {
+    margin-left: 30px;
+}
+
+.cont-s {
+    margin-top: 0px;
+    margin-left: 30px;
+
+}
+
+.cont-sa {
+    margin-top: 0px;
+    margin-left: 60px;
+
+}
+
+.section-titleh-s {
+    color: var(--gray-white, #CECECE);
+
+    /* txt16 (regular) */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 25px;
+}
+
+.banner-image-user-s {
+    margin-left: -90px;
+    width: 1300px;
+    height: 360px;
+    margin-bottom: 50px;
+}
+
+.inf-s {
+    margin-left: 50px;
+    margin-top: -270px;
+}
+
+.title-s {
+    margin-top: -30px;
+    margin-bottom: -25px;
+
+}
+
+.release-date {
+    color: var(--gray-white, #CECECE);
+
+    /* txt16 (regular) */
+    margin-top: -3px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.m5m {
+    border-radius: 50%;
+    margin-right: 12px;
+    width: 140px;
+    height: 140px;
+}
+
+.m-5m {
+    margin-right: 12px;
+    width: 140px;
+    height: 140px;
+    border-radius: 8px;
+}
+
+.popularity {
+    margin-left: 60px;
+}
+
+.profile-image-s {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.profile-details-s {
+    margin-top: -45px;
+    color: var(--White, #FFF);
+
+    /* txt32 (semi bold) */
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.profile-details-s p {
+    display: inline-block;
+    justify-content: left;
+}
+
+.profile-details-s div {
+    display: inline-block;
+    justify-content: left;
+}
+
+.name-s {
+    margin-left: 170px;
+    margin-top: -130px;
+}
+
+.marg-5 {
+    margin: 0 10px;
+}
+
+.tracks-list {
+    margin-top: 30px;
+}
+
+.title-s:hover {
+    transform: scale(1.05);
+}
+
+.top-tracks {
+    width: 1150px;
+    /* Adjust according to your layout */
+    margin-left: -55px;
+    padding: 20px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.track-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.track-index {
+    width: 30px;
+    text-align: right;
+    margin-right: 20px;
+    color: #888;
+}
+
+.track-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.track-info {
+    flex: 2;
+    /* Adjusts the space ratio between the items */
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.track-name {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+.play-button {
+    display: flex;
+    margin-top: -43px;
+    margin-left: -280px;
+
+}
+
+.width {
+    width: 30px;
+    height: 30px;
+}
+
+.track-artist {
+    color: #888;
+    margin: 0;
+}
+
+.track-album {
+    flex: 2;
+    /* Aligns and spaces album names centrally */
+    color: #888;
+    text-align: center;
+}
+
+.track-duration {
+    flex: 1;
+    /* Adjusts the space ratio between the items */
+    text-align: right;
+    color: #888;
+}
+
+.track-item {
+    padding-right: 30px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.track-item:hover {
+    border-radius: 12px;
+    background: var(--white-19, rgba(255, 255, 255, 0.19));
+}
+
+.minmar {
+    display: flex;
+    margin-top: -20px;
+}
+
+.profile-details-f {
+    display: grid;
+    margin-top: -160px;
+}
+.profile-details-f.light{
+    color: var(--Light-black, #1A2125);
+}
+
+.play-iconaa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    /* Hidden by default */
+    align-items: center;
+    margin-top: -15px;
+    margin-left: -6px;
+}
+
+.nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.add {
+    position: fixed;
+    top: 0;
+    left: 320px;
+    background: #13191C;
+    width: 600px;
+    height: 80px;
+}
+
+.content-s-p {
+    position: sticky;
+    background: #13191C;
+    margin-left: 320px;
+    width: 1199px;
+    padding-top: 0px;
+    right: 0;
+}
+.content-s-p{
+    background-color: #D1D1D6;
+
+}
+.img-content:hover .play-icona {
+    display: flex;
+    /* Show on hover */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+    /* Green shadow on hover */
+
+}
+
+.img-container:hover .play-iconaa {
+    display: flex;
+    /* Show on hover */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+    /* Green shadow on hover */
+
+}
+
+.play-icona img {
+    width: 40px;
+    height: 40px;
+}
+
+.seting-f {
+    height: 25px;
+    width: 1200;
+    height: 25px;
+    padding-left: 375px;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    margin-top: 55px;
+}
+
+.seting-s {
+    height: 25px;
+    width: 1200;
+    height: 25px;
+    padding-left: 367px;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    margin-top: 55px;
+}
+
+.seting-img-s {
+    margin-left: -320px;
+}
+
+.top-tracks-f {
+
+    margin-left: -25px;
+}
+
+.tracks-list-f {
+    margin-top: 60px;
+}
+
+.folofers {
+    margin-top: -25px;
+}
+
+
+.subscribe-button {
+    margin-left: 115%;
+    color: var(--Light-black, #1A2125);
+    /* txt20 (semi bold) */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 12px;
+    background: var(--green-less-saturated, #4BDD4C);
+}
+
+.recommendations-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recommendation-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.recommendation-cover {
+    flex: 0 0 40px;
+}
+
+.recommendation-album-cover {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.recommendation-info {
+    flex: 2;
+    margin-left: 10px;
+}
+
+.recommendation-name {
+    font-weight: bold;
+}
+
+.recommendation-artists {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.recommendation-popularity {
+    flex: 1;
+    text-align: right;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.recommendation-duration {
+    flex: 0 0 60px;
+    text-align: right;
+}
+
+.play-icona {
+    cursor: pointer;
+    margin-left: -5px;
+    margin-top: -33px;
+}
+
+/* Main container for the settings and dropdown */
+.folofers {
+    margin-top: -25px;
+}
+
+
+.subscribe-button-s {
+    color: var(--Light-black, #1A2125);
+    /* txt20 (semi bold) */
+    margin-left: 105%;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 12px;
+    width: 200px;
+    background: var(--green-less-saturated, #4BDD4C);
+}
+
+.subscribed-s {
+
+    margin-left: 105%;
+    color: var(--Light-black, #1A2125);
+    /* txt20 (semi bold) */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 12px;
+    width: 200px;
+    background: var(--green-less-saturated, #7f7e7e);
+}

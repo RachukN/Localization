@@ -1,0 +1,112 @@
+/* SearchResults.css */
+.search-results-container {
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+  /* Блоки "прилипають" до різних cторін */
+
+  background: var(--Black, #13191C);
+}
+
+
+.search {
+  margin-left: 30px;
+  background: var(--Black, #13191C);
+  position: fixed;
+  top: 0;
+  right: 500px;
+}
+
+.results-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  border: #13191C;
+  /* Ensure it's on top of other elements */
+  width: 500px;
+  /* Full width */
+  /* Background color to ensure readability */
+  display: flex;
+  justify-content: right;
+  /* Keep SearchBar and TopNavigation aligned */
+  color: green;
+
+}
+.results-section{
+  margin-left: 345px;
+  margin-top: 420px;
+}
+.best-result{
+  position: absolute;
+  left:390px;
+  top: 130px;
+  width: 500px;
+height: 106px;
+border-radius: 10px;
+}
+.best-name{
+  position: absolute;
+  top: -80px;
+  color: var(--green-less-saturated, #4BDD4C);
+/* txt32 (semi bold) */
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.best-img{
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  width: 160px;
+  height: 160px;
+}
+.best-item{
+  color: var(--White, #FFF);
+/* txt16 (regular) */
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.best-details{
+  position: absolute;
+  top: 60px;
+  left: 220px;
+}
+.best-auth{
+  color: var(--White, #FFF);
+margin-top: 2px;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.best-title{
+  color: var(--White, #FFF);
+  margin-top: -20px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.tracks-list-search{
+  width: 500px;
+}
+.pisen{
+  position: absolute;
+  top: 120px;
+  left: 910px;
+}
+.best-name-pisen{
+  position: absolute;
+  top: -64px;
+  left: 40px;
+  color: var(--green-less-saturated, #4BDD4C);
+/* txt32 (semi bold) */
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

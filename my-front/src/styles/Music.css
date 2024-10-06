@@ -1,0 +1,176 @@
+.music-c{
+  width: 1124px;
+  overflow-x: hidden;
+  display: flex;
+  
+  padding: 15px 0;
+  scroll-behavior: smooth;
+  margin-top: 20px;
+  
+}
+.auth.light{
+  font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+ color: #0B9F0D;
+}
+.img-container {
+  width: 153px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  margin: 0 4px;
+}
+.public{
+  margin-left: -4px;
+  
+}
+
+.m-5{
+  margin-right: 12px;
+  width: 140px;
+  height: 140px;
+  border-radius: 8px;
+}
+.play-icon {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  display: none; /* Hidden by default */
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+}
+.m-5-artist{
+  margin-right: 12px;
+  width: 140px;
+  height: 140px;
+  border-radius: 8px;
+}
+.m-5-artist:hover{
+  position: relative; /* Show on hover */
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Green shadow on hover */
+
+}
+.play-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.img-content:hover .play-icon {
+  display: flex; /* Show on hover */
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Green shadow on hover */
+   
+}
+
+.img-r {
+  position: absolute;
+  right: 60px;
+  top: -40px;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.img-l {
+  position: absolute;
+  right: 60px;
+  top: -40px;
+  margin-right: 65px;
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+
+.img-r:hover {
+  transform: scale(1.1);
+}
+
+.img-l:hover {
+  transform: scale(1.1);
+}
+
+.auth.dark {
+  color: var(--Green, #00FF03);
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.name-title.dark{
+  
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+.name-title.light{
+  
+  font-size: 18px;
+  font-weight: 600;
+ 
+}
+.track-info{
+  color: #0B9F0D;
+}
+
+
+
+.auth:hover {
+  
+  transform: scale(1.1);
+}
+.hover:hover{
+  transform: scale(1.1);
+}
+.artist-name:hover{
+  transform: scale(1.1);
+}
+
+.main-title.dark{
+  position: absolute;
+  left: 3px;
+  top: -60px;
+  margin-right: 65px;
+  display: block;
+  font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  color: #00FF03;
+}
+.main-title.light{
+    position: absolute;
+    left: 3px;
+    top: -60px;
+    margin-right: 65px;
+    display: block;
+    font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #0B9F0D;
+  }
+.result-name{
+  color: var(--gray-white, #CECECE);
+
+  /* txt16 (regular) */
+
+  font-weight: 400;
+  font-size: 17px;
+  line-height: normal;
+}
+.result-name.light{
+  color: var(--Light-black, #1A2125);
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.top-tracks{
+  margin-top: -40px;
+  
+}
